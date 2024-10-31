@@ -4,9 +4,9 @@ export default function Privacy() {
       <h2>Privacy Policy</h2>
       <p>
         This privacy policy applies to the Absensi Online NL app (hereby
-        referred to as "Application") for mobile devices that was created by
-        Technivine (hereby referred to as "Service Provider") as a Free service.
-        This service is intended for use "AS IS".
+        referred to as &quot;Application&quot;) for mobile devices that was created by
+        Technivine (hereby referred to as &quot;Service Provider&quot;) as a Free service.
+        This service is intended for use &quot;AS IS&quot;.
       </p>
 
       <h2>Information Collection and Use</h2>
@@ -15,7 +15,7 @@ export default function Privacy() {
         information may include information such as
       </p>
       <ul>
-        <li>Your device's Internet Protocol address (e.g. IP address)</li>
+        <li>Your device&apos;s Internet Protocol address (e.g. IP address)</li>
         <li>
           The pages of the Application that you visit, the time and date of your
           visit, the time spent on those pages
@@ -30,7 +30,7 @@ export default function Privacy() {
       </p>
       <div>
         <p>
-          The Application collects your device's location, which helps the
+          The Application collects your device&apos;s location, which helps the
           Service Provider determine your approximate geographical location and
           make use of in below ways:
         </p>
@@ -138,7 +138,7 @@ export default function Privacy() {
       <h2>Data Retention Policy</h2>
       <p>
         The Service Provider will retain User Provided data for as long as you
-        use the Application and for a reasonable time thereafter. If you'd like
+        use the Application and for a reasonable time thereafter. If you&apos;d like
         them to delete User Provided Data that you have provided via the
         Application, please contact them at welsonoktario@gmail.com and they
         will respond in a reasonable time.
