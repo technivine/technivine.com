@@ -1,43 +1,36 @@
 import React from "react";
-import Header from "./header"; 
 
-export default function Home() {
+const Header = () => {
   return (
-    <div className="flex min-h-screen flex-col">
-      {/* Navbar */}
-      <Header />
-
-      <div className="flex flex-grow">
-        {/* Sidebar */}
-        <aside className="w-64 bg-gray-800 text-white p-4">
-          <h2 className="text-lg font-bold mb-4">Sidebar Menu</h2>
-          <ul className="space-y-2">
-            <li><a href="#dashboard" className="block hover:bg-gray-700 p-2 rounded">Dashboard</a></li>
-            <li><a href="#projects" className="block hover:bg-gray-700 p-2 rounded">Projects</a></li>
-            <li><a href="#settings" className="block hover:bg-gray-700 p-2 rounded">Settings</a></li>
-          </ul>
-        </aside>
-
-        {/* Main Content */}
-        <main className="flex-grow p-8">
-          <div className="relative text-center mb-8">
-            <p className="text-2xl font-bold">Coming soon ⏳...</p>
-            <p className="mt-4">
-              Sedang Sibuk Kerja Kontraktor dan Container, Besok Baru gas ga si ges duh lama amay!!❤️
-            </p>
-          </div>
-          <div className="relative text-center">
-            <p>by: maspimen &amp; og</p>
-          </div>
-        </main>
+    <nav className="bg-blue-600 text-white p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <h1 className="text-xl font-bold">My Website</h1>
+        <ul className="flex space-x-4">
+          <li><a href="#home" className="hover:underline">Home</a></li>
+          <li><a href="#about" className="hover:underline">About</a></li>
+          <li><a href="tel:08221243232432" className="hover:underline">Call Us</a></li>
+          <li>
+            <a 
+              href="https://wa.me/6281333556337?text=Hi%2C%20Technivine." 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:underline"
+            >
+              WhatsApp
+            </a>
+          </li>
+          <li>
+            <a 
+              href="mailto:firmanherda26@gmail.com?subject=Inquiry%20about%20Services&body=Hi%2C%20Technivine." 
+              className="hover:underline"
+            >
+              Email Us
+            </a>
+          </li>
+        </ul>
       </div>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-4">
-        <div className="container mx-auto text-center">
-          <p>&copy; 2024 My Website. All rights reserved.</p>
-        </div>
-      </footer>
-    </div>
+    </nav>
   );
-}
+};
+
+export default Header;
